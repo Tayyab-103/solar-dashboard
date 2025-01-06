@@ -40,7 +40,7 @@ export default function RootLayout({
           {/* {children} */}
           <SidebarProvider>
             <AppSidebar />
-            <main>
+            <main style={{width:"100%"}}>
               <SidebarTrigger />
               {children}
             </main>

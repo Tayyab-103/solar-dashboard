@@ -5,7 +5,7 @@ import Dashboard from "./dashboard/page";
 export default function Home() {
 
   return (
-    <div>
+    <div style={{width:"100%"}}>
       <Dashboard />
     </div>
   );
